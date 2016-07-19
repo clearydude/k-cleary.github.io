@@ -21,6 +21,13 @@ a.active {
   color: #E8A0B8;
   outline: none;
 }
+a.not-pink,
+a:hover.not-pink,
+a:focus.not-pink
+a:active.not-pink {
+  color: #666666;
+}
+
 h1,
 h2,
 h3,
